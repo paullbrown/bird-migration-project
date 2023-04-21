@@ -64,7 +64,9 @@ The legend was added to the map, using a CSS file. The marker size is based on d
 ### Debugging, Debugging, and more Debugging
 
 
-Run in order:
+
+
+## To activate the webpage, run the following in order:
 - etl_all_columns.ipynb
 - etl_selected_columns.ipynb
 - cleanbird.csv should be in the data folder
