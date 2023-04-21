@@ -6,7 +6,7 @@
 ## Project Summary
 We want to explore bird migration patterns, with a focus on endangered species in the midwest. Using publicly available data, we will create visualizations of bird populations over time.
 
-The practical objective was to find a large dataset, convert it into a CSV, clean the data and populate a SQLite database. Then create a Flask app server to return webpage queries. Finally, creating an interactive webpage, using HTML, JavaScript, and CSS stylesheets to present the user-filtered data in a dynamic, accurate, and visually pleasing format.
+The practical objective was to find a large dataset (730k records), convert it into a CSV, clean the data and populate a SQLite database. Then create a Flask app server to return webpage queries. Finally, creating an interactive webpage, using HTML, JavaScript, and CSS stylesheets to present the user-filtered data in a dynamic, accurate, and visually pleasing format.
 
 This project hinges on the communication and interaction between several independent components. The applications, libraries and tools that we used include:
 - Applications
@@ -62,3 +62,11 @@ Density data was then plotted using latitude and longitude, and grouped by speci
 ### Markers and Popup Data
 The legend was added to the map, using a CSS file. The marker size is based on density. Marker popups were added to include Species, Location, Date Observed, and Time Observed. 
 ### Debugging, Debugging, and more Debugging
+
+
+Run in order:
+- etl_all_columns.ipynb
+- etl_selected_columns.ipynb
+- cleanbird.csv should be in the data folder
+- bird_alchemy.py
+- final-index.html
